@@ -1,0 +1,15 @@
+.breadCrumbScrollNav{overflow-x:scroll;overflow-y:visible;-webkit-overflow-scrolling:touch;overflow-scrolling:touch;}
+.breadCrumbScrollNav.overflow-hidden{overflow:hidden;}
+.breadCrumbScrollNavOuter{position:relative;padding-top: 5px;}
+.breadCrumbScrollNav > table{table-layout:fixed;}
+.breadCrumbScrollNav > table td{white-space:nowrap;position:relative;padding:0 8px 0 0;}
+.breadCrumbScrollNav > table td:first-child{padding-left:0;}
+.breadCrumbScrollNav > table td:first-child{padding-left:4px;}
+.breadCrumbScrollNav > table td:last-child{padding-right:8px;}
+.breadCrumbScrollNav > table td a{padding:0 4px;line-height:24px;height:24px;display:inline-block;font-size:11px;color:#848484;text-decoration:none;}
+.breadCrumbScrollNav > table td:last-child a{color:#1F1F1F;}
+.breadCrumbScrollNav > table td:before, .breadCrumbScrollNav > table td::before{content:'>';display:inline-block;position:relative;top:4px;left:-2px;line-height:12px;color:#848484;font-size:11px!important;vertical-align:top;}
+.breadCrumbScrollNav > table td:first-of-type:before{display:none;}
+.breadCrumbScrollNav > table td:first-child a{border-left:none;}
+.breadCrumbScrollNav::-webkit-scrollbar{display:none;}
+.breadCrumbScrollNav{-ms-overflow-style: none;}
